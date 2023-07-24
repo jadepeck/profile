@@ -24,12 +24,16 @@ li{
   margin:0 30px;
 }
 
+li a{
+  color: #E8AA14
+}
+
 ul{
   padding:0;
 }
 
 body {
-  background-color: #BEA57D;
+  background: url("https://media.tenor.com/zBc1XhcbTSoAAAAC/nyan-cat-rainbow.gif");
   color: #132018;
   font-family: 'Roboto Condensed', sans-serif;
 }
