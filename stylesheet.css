@@ -72,3 +72,14 @@ div{
     width: 300px;
   }
 }
+
+#games {
+  background-color: #72A1E5;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#games:hover {
+  background-color: #FCD3DE;
+  color: #2E382E;
+}
