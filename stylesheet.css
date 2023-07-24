@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto+Condensed&display=swap');
+
+#profilepic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.container{
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.icon {
+  font-size: 40px;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  vertical-align:auto;
+  margin:0 30px;
+}
+
+ul{
+  padding:0;
+}
+
+body {
+  background-color: #BEA57D;
+  color: #132018;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+  font-family: 'Bungee Spice', cursive;
+}
+
+div{
+  width: 600px;
+}
+
+.card{
+  background: #D573C9;
+  padding: 30px;
+  border: 5px solid lightgrey;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
